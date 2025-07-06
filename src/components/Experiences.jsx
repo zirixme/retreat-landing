@@ -14,6 +14,7 @@ function Experiences() {
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
+        viewport={{ once: true }}
       >
         <hr className="w-0 md:w-20" />
         <motion.h1
@@ -29,6 +30,7 @@ function Experiences() {
         variants={fadeInUp}
         initial="hidden"
         whileInView="show"
+        viewport={{ once: true }}
       >
         From mindful mornings to heart-pumping hikes, our experiences are
         crafted to reconnect you with the wild, with others, and with yourself.
@@ -40,7 +42,7 @@ function Experiences() {
         whileInView="show"
         initial="hidden"
         variants={staggerContainer}
-        viewport={{ once: true, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.1 }}
       >
         <motion.div variants={imageFadeIn}>
           <ExperCard

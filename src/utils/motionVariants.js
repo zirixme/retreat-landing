@@ -21,10 +21,9 @@ export const staggerContainer = {
 };
 
 export const imageFadeIn = {
-  hidden: { opacity: 0, scale: 0.95 },
+  hidden: { opacity: 0 },
   show: {
     opacity: 1,
-    scale: 1,
     transition: {
       duration: 1.2,
       ease: "easeOut",
