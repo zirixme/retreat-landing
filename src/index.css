@@ -3,7 +3,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-button: rgb(18.43% 59.61% 34.51%);
+  --color-green-normal: #2f9858;
+  --color-green-light: #5bcc87;
+  --color-green-dark: #21693d;
+  --text-small: 20px;
 }
 * {
   font-family: "Inter";
