@@ -33,7 +33,7 @@ function Navbar() {
           </ul>
         </div>
         <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
-          <Menu color="white" width={42} />
+          <Menu color="white" size={40} />
         </button>
         {/* Mobile menu */}
         {isOpen && (
