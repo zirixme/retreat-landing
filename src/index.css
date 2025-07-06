@@ -2,6 +2,9 @@
 
 @import "tailwindcss";
 
+@theme {
+  --color-button: rgb(18.43% 59.61% 34.51%);
+}
 * {
   font-family: "Inter";
 }
