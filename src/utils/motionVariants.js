@@ -26,7 +26,7 @@ export const imageFadeIn = {
     opacity: 1,
     scale: 1,
     transition: {
-      duration: 1.5,
+      duration: 1.2,
       ease: "easeOut",
     },
   },
