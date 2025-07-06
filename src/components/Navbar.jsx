@@ -6,7 +6,7 @@ function Navbar() {
   const navLinks = ["Home", "Experiences", "Journal", "Contact"];
   return (
     <header className="w-full absolute top-0 left-0 z-20">
-      <nav className="flex justify-between px-8 py-4 bg-transparent">
+      <nav className="flex justify-between px-4 md:8 py-4 bg-transparent">
         <div>
           <ul>
             <li>
