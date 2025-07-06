@@ -1,23 +1,39 @@
 import Button from "./Button.jsx";
+import { motion } from "framer-motion";
+import { fadeInUp, staggerContainer } from "../utils/motionVariants.js";
+
 function Hero() {
   return (
     <section
-      className="h-screen bg-cover"
+      className="h-screen bg-cover bg-center relative"
       style={{ backgroundImage: "url('/hero-bg.jpg')" }}
     >
-      <div className="absolute inset-0 bg-black/40"></div>
-      <div className="h-screen flex flex-col justify-center items-baseline max-w-2xl px-24 relative z-10">
-        <h1 className="mb-3 text-5xl text-white font-extrabold tracking-tight">
-          Escape to Where the
-          <br /> <span className="text-[#5BCC87]">Wild Lives</span>
-        </h1>
-        <p className="mb-6 text-white text-small">
+      <div className="absolute inset-0 bg-black/40 z-0" />
+
+      <motion.div
+        className="h-full flex flex-col justify-center items-baseline max-w-2xl px-6 md:px-24 relative z-10"
+        variants={staggerContainer}
+        initial="hidden"
+        animate="show"
+      >
+        <motion.h1
+          variants={fadeInUp}
+          className="mb-3 text-4xl md:text-5xl text-white font-extrabold tracking-tight"
+        >
+          Escape to Where the <br />
+          <span className="text-[#5BCC87]">Wild Lives</span>
+        </motion.h1>
+
+        <motion.p variants={fadeInUp} className="mb-6 text-gray-200 text-sm">
           Discover breathtaking destinations, peaceful trails, and the calm of
           untouched landscapes. Whether you're seeking solitude or adventure,
           our retreats reconnect you with the earth.
-        </p>
-        <Button title={"Find Your Escape"} />
-      </div>
+        </motion.p>
+
+        <motion.div variants={fadeInUp}>
+          <Button title={"Find Your Escape"} />
+        </motion.div>
+      </motion.div>
     </section>
   );
 }
