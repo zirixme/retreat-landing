@@ -4,7 +4,10 @@ import { motion } from "framer-motion";
 import { staggerContainer, fadeInUp } from "../utils/motionVariants.js";
 function Accommodations() {
   return (
-    <section className="bg-background h-fit grid grid-cols-1 lg:grid-cols-2 p-10 gap-4 place-items-center lg:items-start">
+    <section
+      id="accommodations"
+      className="bg-background h-fit grid grid-cols-1 lg:grid-cols-2 p-10 gap-4 place-items-center lg:items-start"
+    >
       <div className="flex flex-col gap-4">
         <motion.div
           variants={staggerContainer}
