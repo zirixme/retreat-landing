@@ -14,7 +14,7 @@ export const staggerContainer = {
   hidden: {},
   show: {
     transition: {
-      staggerChildren: 0.2,
+      staggerChildren: 0.3,
       ease: "easeOut",
     },
   },
