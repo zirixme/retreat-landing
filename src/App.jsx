@@ -4,6 +4,9 @@ import Experiences from "./components/Experiences.jsx";
 import TopFooter from "./components/TopFooter.jsx";
 import AboutUs from "./components/AboutUs.jsx";
 import Accommodations from "./components/Accommodations.jsx";
+import Testimonials from "./components/Testimonials.jsx";
+import Footer from "./components/Footer.jsx";
+import Copyright from "./components/Copyright.jsx";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <Experiences />
       <AboutUs />
       <Accommodations />
+      <Testimonials />
+      <Footer />
+      <Copyright />
     </>
   );
 }
