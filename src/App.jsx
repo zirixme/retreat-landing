@@ -3,6 +3,8 @@ import Hero from "./components/Hero.jsx";
 import Experiences from "./components/Experiences.jsx";
 import TopFooter from "./components/TopFooter.jsx";
 import AboutUs from "./components/AboutUs.jsx";
+import Accommodations from "./components/Accommodations.jsx";
+
 function App() {
   return (
     <>
@@ -11,6 +13,7 @@ function App() {
       <TopFooter />
       <Experiences />
       <AboutUs />
+      <Accommodations />
     </>
   );
 }
