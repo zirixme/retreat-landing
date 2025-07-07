@@ -31,7 +31,9 @@ function Hero() {
         </motion.p>
 
         <motion.div variants={fadeInUp}>
-          <Button title={"Find Your Escape"} />
+          <a href="#accommodations">
+            <Button title={"Find Your Escape"} />
+          </a>
         </motion.div>
       </motion.div>
     </section>
