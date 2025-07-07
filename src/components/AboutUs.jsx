@@ -7,7 +7,7 @@ function AboutUs() {
       className="flex bg-cover h-screen relative"
       style={{ backgroundImage: "url('/beach.jpg')" }}
     >
-      <div className="absolute inset-0 bg-gradient-to-br md:bg-gradient-to-bl from-black/50 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-r md:bg-gradient-to-bl from-black/50 to-transparent"></div>
       <div className=" justify-between items-center flex-col bg-black hidden md:flex px-2">
         <p className="-rotate-90 text-6xl font-extrabold text-white">E</p>
         <p className="-rotate-90 text-6xl font-extrabold text-white">R</p>
@@ -16,13 +16,13 @@ function AboutUs() {
         <p className="-rotate-90 text-6xl font-extrabold text-white">A</p>
         <p className="-rotate-90 text-6xl font-extrabold text-white">N</p>
       </div>
-      <div className="flex justify-baseline md:justify-end border w-full h-full">
+      <div className="flex items-center justify-baseline md:justify-end w-full h-full">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="p-20 max-w-xl text-white z-10"
+          className="p-6 md:p-20 max-w-xl text-white z-10"
         >
           <motion.h1
             variants={fadeInUp}
