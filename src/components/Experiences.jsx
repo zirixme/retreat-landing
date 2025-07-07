@@ -37,14 +37,8 @@ function Experiences() {
         Whether you’re here to rest, explore, or grow we have something just for
         you.
       </motion.p>
-      <motion.div
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4"
-        whileInView="show"
-        initial="hidden"
-        variants={staggerContainer}
-        viewport={{ once: true, amount: 0.1 }}
-      >
-        <motion.div variants={imageFadeIn}>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+        <div>
           <ExperCard
             img={"/foraging.jpg"}
             title={"Foraging & Plant Walks"}
@@ -52,8 +46,8 @@ function Experiences() {
               "Learn about local plants, herbs, and how nature nourishes us led by a certified herbalist."
             }
           />
-        </motion.div>
-        <motion.div variants={imageFadeIn}>
+        </div>
+        <div>
           <ExperCard
             img={"/campfire.jpg"}
             title={"Evening Fire Circles"}
@@ -61,8 +55,8 @@ function Experiences() {
               "Gather around the fire to share stories, reflect, or simply enjoy the stars in good company."
             }
           />
-        </motion.div>
-        <motion.div variants={imageFadeIn}>
+        </div>
+        <div>
           <ExperCard
             img={"/hike.jpg"}
             title={"Guided Adventures"}
@@ -70,8 +64,8 @@ function Experiences() {
               "Wander through alpine trails with expert guides who know every hidden path and story the forest holds."
             }
           />
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
     </section>
   );
 }
