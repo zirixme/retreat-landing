@@ -8,7 +8,10 @@ import {
 
 function Experiences() {
   return (
-    <section className="bg-background h-fit text-center pt-20 flex flex-col items-center pb-20">
+    <section
+      id="experiences"
+      className="bg-background h-fit text-center pt-20 flex flex-col items-center pb-20"
+    >
       <motion.div
         className="max-w-screen-xl flex justify-center items-center gap-10 mb-4"
         variants={staggerContainer}
