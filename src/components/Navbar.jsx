@@ -10,7 +10,7 @@ function Navbar() {
         <div>
           <ul>
             <li key={"logo"}>
-              <img src="/logo.svg" alt="" />
+              <img src="/logo.svg" alt="logo" />
             </li>
           </ul>
         </div>
@@ -34,7 +34,7 @@ function Navbar() {
           </ul>
         </div>
         <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
-          <Menu color="white" size={40} />
+          <Menu color="white" size={40} aria-expanded aria-label="Menu" />
         </button>
         {/* Mobile menu */}
         {isOpen && (

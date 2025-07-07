@@ -10,7 +10,7 @@ function TestiCard({ img, name, paragraph }) {
       </div>
       <h1 className="mb-2">{name}</h1>
       <div className="mb-2">
-        <img src="/stars.svg" alt="" />
+        <img src="/stars.svg" alt="rating" />
       </div>
       <p className="max-w-2xs">{paragraph}</p>
     </div>

@@ -4,7 +4,7 @@ function ExperCard({ img, title, paragraph }) {
       <div className="relative rounded mb-4 h-64 overflow-hidden shadow">
         <img
           src={img}
-          alt=""
+          alt={img}
           className="absolute inset-0 w-full h-full object-cover object-[70%]"
         />
       </div>

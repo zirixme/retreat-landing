@@ -54,6 +54,7 @@ function Footer() {
             type="email"
             name="email"
             id="email"
+            aria-label="Email"
             placeholder="Email"
             className="w-full pl-10 py-2 pr-3 rounded border bg-white text-black"
             autoComplete="off"
