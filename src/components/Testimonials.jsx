@@ -1,0 +1,51 @@
+import TestiCard from "./TestiCard.jsx";
+function Testimonials() {
+  return (
+    <section
+      className="flex h-fit p-20 bg-cover bg-center text-white relative flex-col items-center"
+      style={{ backgroundImage: "url('/test.jpg')" }}
+    >
+      <div className="bg-gradient-to-b from-black/30 to-transparent absolute inset-0"></div>
+      <div className="text-center z-10 mb-20">
+        <h1 className="text-4xl md:text-5xl tracking-tight font-semibold mb-4">
+          What Our Guests Say
+        </h1>
+        <p>
+          Every visit leaves a mark and we’re grateful to be part of so many
+          journeys. Here's what some of our guests have shared:
+        </p>
+      </div>
+      <div className="z-100 flex flex-col lg:flex-row gap-4 flex-wrap ">
+        <TestiCard
+          img={"/person-1.jpg"}
+          name={"Sarah T."}
+          paragraph={
+            "“A magical escape. I arrived stressed and left grounded. The forest walks and evening fires were unforgettable.”"
+          }
+        />
+        <TestiCard
+          img={"/person-3.jpg"}
+          name={"Daniel R."}
+          paragraph={
+            "“The perfect balance of adventure and peace. The cabin was cozy, and the team made me feel truly welcome.”"
+          }
+        />
+        <TestiCard
+          img={"/person-2.jpg"}
+          name={"Olivia C."}
+          paragraph={
+            "“It felt like time slowed down here. No pressure, no noise just the forest and my breath.” "
+          }
+        />
+        <TestiCard
+          img={"/person-4.jpg"}
+          name={"Thomas E."}
+          paragraph={
+            "“I came to unplug but left recharged. The stillness, the stars, the people everything was just right.”"
+          }
+        />
+      </div>
+    </section>
+  );
+}
+export default Testimonials;
