@@ -24,7 +24,7 @@ function Hero() {
           <span className="text-[#5BCC87]">Wild Lives</span>
         </motion.h1>
 
-        <motion.p variants={fadeInUp} className="mb-6 text-gray-200 text-sm">
+        <motion.p variants={fadeInUp} className="mb-6 text-white text-sm">
           Discover breathtaking destinations, peaceful trails, and the calm of
           untouched landscapes. Whether you're seeking solitude or adventure,
           our retreats reconnect you with the earth.
