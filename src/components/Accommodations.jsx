@@ -40,9 +40,8 @@ function Accommodations() {
             Alpine Cabin Lookout
           </h1>
           <p>
-            This cabin sits high in the mountains with big windows, stunning
-            views, and a warm stone fireplace. Perfect for stargazing and
-            peaceful nights.
+            A cozy cabin with big windows and mountain views. Great for quiet
+            nights and watching the stars.
           </p>
         </div>
       </div>
