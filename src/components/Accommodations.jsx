@@ -40,9 +40,9 @@ function Accommodations() {
             Alpine Cabin Lookout
           </h1>
           <p>
-            Perched high on a ridge, this rustic-modern cabin offers sweeping
-            mountain views, floor-to-ceiling windows, and a stone fireplace.
-            Ideal for stargazing and quiet nights above the clouds.
+            This cabin sits high in the mountains with big windows, stunning
+            views, and a warm stone fireplace. Perfect for stargazing and
+            peaceful nights.
           </p>
         </div>
       </div>
