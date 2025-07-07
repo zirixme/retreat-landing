@@ -2,7 +2,7 @@ import TestiCard from "./TestiCard.jsx";
 function Testimonials() {
   return (
     <section
-      className="flex h-fit p-20 bg-cover bg-center text-white relative flex-col items-center"
+      className="flex h-fit p-10 md:p-20 bg-cover bg-center text-white relative flex-col items-center"
       style={{ backgroundImage: "url('/test.jpg')" }}
     >
       <div className="bg-gradient-to-b from-black/30 to-transparent absolute inset-0"></div>
@@ -15,7 +15,7 @@ function Testimonials() {
           journeys. Here's what some of our guests have shared:
         </p>
       </div>
-      <div className="z-100 flex flex-col lg:flex-row gap-4 flex-wrap ">
+      <div className="z-100 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 ">
         <TestiCard
           img={"/person-1.jpg"}
           name={"Sarah T."}
