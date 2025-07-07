@@ -9,7 +9,7 @@ function Navbar() {
       <nav className="flex justify-between px-4 md:px-8 py-4 bg-transparent">
         <div>
           <ul>
-            <li>
+            <li key={"logo"}>
               <img src="/logo.svg" alt="" />
             </li>
           </ul>
@@ -17,9 +17,8 @@ function Navbar() {
         <div>
           <ul className="hidden md:flex gap-10 items-center text-white z-20">
             {navLinks.map((text) => (
-              <li>
+              <li key={text}>
                 <a
-                  key={text}
                   href="#"
                   className="relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full"
                 >
@@ -28,7 +27,9 @@ function Navbar() {
               </li>
             ))}
             <li>
-              <Button title={"Get Started"} />
+              <a href="#experiences">
+                <Button title={"Get Started"} />
+              </a>
             </li>
           </ul>
         </div>
