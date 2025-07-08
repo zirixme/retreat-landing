@@ -21,7 +21,7 @@ function Experiences() {
       >
         <hr className="w-0 md:w-20" />
         <motion.h1
-          className="text-4xl md:text-5xl tracking-tight font-semibold"
+          className="text-4xl md:text-5xl tracking-tight font-semibold 2xl:text-7xl"
           variants={fadeInUp}
         >
           Discover What Awaits You
@@ -29,7 +29,7 @@ function Experiences() {
         <hr className="w-0 md:w-20" />
       </motion.div>
       <motion.p
-        className="mb-16 max-w-2xl"
+        className="mb-16 max-w-2xl 2xl:text-2xl 2xl:max-w-4xl"
         variants={fadeInUp}
         initial="hidden"
         whileInView="show"
@@ -40,7 +40,7 @@ function Experiences() {
         Whether you’re here to rest, explore, or grow we have something just for
         you.
       </motion.p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
         <div>
           <ExperCard
             img={"/foraging.jpg"}
@@ -59,7 +59,7 @@ function Experiences() {
             }
           />
         </div>
-        <div>
+        <div className="md:col-span-2 md:flex md:justify-center lg:block lg:col-span-1">
           <ExperCard
             img={"/hike.jpg"}
             title={"Guided Adventures"}

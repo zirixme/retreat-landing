@@ -7,15 +7,15 @@ function Testimonials() {
     >
       <div className="bg-gradient-to-b from-black/30 to-transparent absolute inset-0"></div>
       <div className="text-center z-10 mb-20">
-        <h1 className="text-4xl md:text-5xl tracking-tight font-semibold mb-4">
+        <h1 className="text-4xl md:text-5xl 2xl:text-6xl tracking-tight font-semibold mb-4">
           What Our Guests Say
         </h1>
-        <p>
+        <p className="2xl:text-2xl">
           Every visit leaves a mark and we’re grateful to be part of so many
           journeys. Here's what some of our guests have shared:
         </p>
       </div>
-      <div className="z-100 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 ">
+      <div className="z-100 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 ">
         <TestiCard
           img={"/person-1.jpg"}
           name={"Sarah T."}

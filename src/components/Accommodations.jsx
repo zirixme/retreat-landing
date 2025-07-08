@@ -13,26 +13,28 @@ function Accommodations() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="min-h-[300px] lg:min-h-[395px] max-w-sm lg:max-w-full  flex flex-col justify-center md:p-7"
+        className="min-h-[300px] lg:min-h-[395px] max-w-sm lg:max-w-full md:max-w-2xl  flex flex-col justify-center md:p-7 md:col-span-2 md:text-center"
       >
         <motion.h1
           variants={fadeInUp}
-          className="text-4xl md:text-5xl tracking-tight font-semibold mb-4"
+          className="text-4xl md:text-5xl 2xl:text-7xl tracking-tight font-semibold mb-4"
         >
           Stay Close to Nature
         </motion.h1>
-        <motion.p variants={fadeInUp} className="mb-6 ">
-          Whether you crave the comfort of a cozy cabin or the charm of a
-          treetop escape, <br /> each of our stays is designed to bring you
-          closer to the natural world without sacrificing <br /> rest or
-          comfort. Unplug, unwind, and wake up to the sound of the forest.
+        <motion.p
+          variants={fadeInUp}
+          className="mb-6 2xl:text-2xl 2xl:max-w-3xl"
+        >
+          Whether you’re after a cozy cabin or a treetop hideaway, each stay
+          brings you closer to nature without giving up comfort. Unplug, relax,
+          and wake up to the sound of the forest.
         </motion.p>
         <motion.div variants={fadeInUp}>
           <Button title={"Explore All Stays"} />
         </motion.div>
       </motion.div>
       <div
-        className="text-white flex flex-col justify-end p-4 w-full min-h-[300px] lg:min-h-[395px] bg-cover bg-center max-w-sm rounded shadow"
+        className="text-white flex flex-col justify-end p-4 w-full min-h-[300px] lg:min-h-[395px] bg-cover bg-center max-w-sm lg:max-w-2xl rounded shadow md:hidden"
         style={{
           backgroundImage: "url('/alpine-cabin-lookout.jpg')",
           backgroundPosition: "0% 80%",

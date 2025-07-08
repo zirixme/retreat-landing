@@ -1,20 +1,24 @@
 import { Mail } from "lucide-react";
 function Footer() {
   const linkStyle =
-    "text-white/80 hover:text-white transition relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full";
+    "text-white/80 hover:text-white transition relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full 2xl:text-lg";
 
   return (
     <footer className="flex flex-col md:flex-row flex-wrap p-10 md:p-20 gap-12 bg-black text-white justify-between">
       {/* Brand Section */}
       <div className="space-y-2 max-w-xs">
         <img src="/logo.svg" alt="logo" className="mb-3" />
-        <h1 className="text-lg font-semibold">Wilderness Retreat</h1>
-        <p className="text-white/80">Reconnect. Reflect. Restore.</p>
+        <h1 className="text-lg font-semibold 2xl:text-xl">
+          Wilderness Retreat
+        </h1>
+        <p className="text-white/80 2xl:text-lg">
+          Reconnect. Reflect. Restore.
+        </p>
       </div>
 
       {/* Browse Links */}
       <nav className="space-y-2">
-        <h2 className="font-bold text-lg">Browse</h2>
+        <h2 className="font-bold text-lg 2xl:text-xl">Browse</h2>
         <ul className="space-y-1">
           {[
             "Home",
@@ -34,7 +38,7 @@ function Footer() {
 
       {/* Services Links */}
       <nav className="space-y-2">
-        <h2 className="font-bold text-lg">Services</h2>
+        <h2 className="font-bold text-lg 2xl:text-xl">Services</h2>
         <ul className="space-y-1">
           {["Plan Your Stay", "Gift Cards", "FAQ", "Contact Us"].map((item) => (
             <li key={item}>
@@ -48,7 +52,9 @@ function Footer() {
 
       {/* Subscribe Section */}
       <form className="space-y-3 max-w-sm">
-        <h2 className="font-bold text-lg">Want updates from the forest?</h2>
+        <h2 className="font-bold text-lg 2xl:text-xl">
+          Want updates from the forest?
+        </h2>
         <div className="relative">
           <input
             type="email"
