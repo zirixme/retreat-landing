@@ -10,12 +10,12 @@ function Testimonials() {
         <h1 className="text-4xl md:text-5xl 2xl:text-6xl tracking-tight font-semibold mb-4">
           What Our Guests Say
         </h1>
-        <p className="2xl:text-2xl">
+        <p className="2xl:text-2xl max-w-3xl mx-auto">
           Every visit leaves a mark and we’re grateful to be part of so many
           journeys. Here's what some of our guests have shared:
         </p>
       </div>
-      <div className="z-100 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 ">
+      <div className="z-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 ">
         <TestiCard
           img={"/person-1-compressed.webp"}
           name={"Sarah T."}

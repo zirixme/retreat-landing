@@ -5,6 +5,7 @@ import { fadeInUp, staggerContainer } from "../utils/motionVariants.js";
 function Hero() {
   return (
     <section
+      aria-label="Hero section"
       className="h-screen bg-cover bg-center relative"
       style={{ backgroundImage: "url('/hero-bg-compressed.webp')" }}
     >
