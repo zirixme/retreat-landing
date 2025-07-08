@@ -1,7 +1,7 @@
 function ExperCard({ img, title, paragraph }) {
   return (
-    <div className="text-left w-full max-w-sm">
-      <div className="relative rounded mb-4 h-64 overflow-hidden shadow-lg">
+    <div className="text-left w-full max-w-sm lg:max-w-2xl h-full">
+      <div className="relative rounded mb-4 h-60 xl:h-90 overflow-hidden shadow-lg">
         <img
           src={img}
           alt={img}

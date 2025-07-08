@@ -7,7 +7,7 @@ function AboutUs() {
       className="flex bg-cover h-screen relative"
       style={{ backgroundImage: "url('/beach.jpg')" }}
     >
-      <div className="absolute inset-0 bg-gradient-to-r md:bg-gradient-to-bl from-black/50 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-bl from-black/50 to-transparent"></div>
       <div className=" justify-between items-center flex-col bg-black hidden md:flex px-2">
         <p className="-rotate-90 text-6xl font-extrabold text-white">E</p>
         <p className="-rotate-90 text-6xl font-extrabold text-white">R</p>
