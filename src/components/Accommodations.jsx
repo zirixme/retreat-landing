@@ -36,7 +36,7 @@ function Accommodations() {
       <div
         className="text-white flex flex-col justify-end p-4 w-full min-h-[300px] lg:min-h-[395px] bg-cover bg-center max-w-sm lg:max-w-2xl rounded shadow md:hidden"
         style={{
-          backgroundImage: "url('/alpine-cabin-lookout.jpg')",
+          backgroundImage: "url('/alpine-cabin-lookout-compressed.webp')",
           backgroundPosition: "0% 80%",
         }}
       >
@@ -50,28 +50,28 @@ function Accommodations() {
       </div>
 
       <AccoCard
-        img={"/treetop-hideaway.jpg"}
+        img={"/treetop-hideaway-compressed.webp"}
         title={"Treetop Hideaway"}
         paragraph={
           "Elevated above the ground, this unique retreat lets you sleep among the trees. Features a hammock, reading nook, and stargazing skylight."
         }
       />
       <AccoCard
-        img={"/woodland-cabin.jpg"}
+        img={"/woodland-cabin-compressed.webp"}
         title={"Woodland Cabin"}
         paragraph={
           "Nestled in the trees, this warm wooden cabin offers a queen bed, a wood-burning stove, and a large window with mountain views."
         }
       />
       <AccoCard
-        img={"/mountain-view-dome.jpg"}
+        img={"/mountain-view-dome-compressed.webp"}
         title={"Mountain View Dome"}
         paragraph={
           "A cozy geodome tucked into the hillside with panoramic mountain views. Features a skylight for stargazing and a plush king-size bed."
         }
       />
       <AccoCard
-        img={"/forest-lodge.jpg"}
+        img={"/forest-lodge-compressed.webp"}
         title={"Forest Lodge"}
         paragraph={
           "Ideal for small groups or families, this spacious lodge features two bedrooms, a shared kitchen, and a wrap-around porch."

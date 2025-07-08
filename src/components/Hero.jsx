@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section
       className="h-screen bg-cover bg-center relative"
-      style={{ backgroundImage: "url('/hero-bg.jpg')" }}
+      style={{ backgroundImage: "url('/hero-bg-compressed.webp')" }}
     >
       <div className="absolute inset-0 bg-black/40 z-0" />
 

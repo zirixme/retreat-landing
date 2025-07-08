@@ -43,7 +43,7 @@ function Experiences() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
         <div>
           <ExperCard
-            img={"/foraging.jpg"}
+            img={"/foraging-compressed.webp"}
             title={"Foraging & Plant Walks"}
             paragraph={
               "Learn about local plants, herbs, and how nature nourishes us led by a certified herbalist."
@@ -52,7 +52,7 @@ function Experiences() {
         </div>
         <div>
           <ExperCard
-            img={"/campfire.jpg"}
+            img={"/campfire-compressed.webp"}
             title={"Evening Fire Circles"}
             paragraph={
               "Gather around the fire to share stories, reflect, or simply enjoy the stars in good company."
@@ -61,7 +61,7 @@ function Experiences() {
         </div>
         <div className="md:col-span-2 md:flex md:justify-center lg:block lg:col-span-1">
           <ExperCard
-            img={"/hike.jpg"}
+            img={"/hike.compressed.webp"}
             title={"Guided Adventures"}
             paragraph={
               "Wander through alpine trails with expert guides who know every hidden path and story the forest holds."

@@ -5,7 +5,7 @@ function AboutUs() {
   return (
     <section
       className="flex bg-cover h-screen relative"
-      style={{ backgroundImage: "url('/beach.jpg')" }}
+      style={{ backgroundImage: "url('/beach-compressed.webp')" }}
     >
       <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-bl from-black/50 to-transparent"></div>
       <div className=" justify-between items-center flex-col bg-black hidden md:flex px-2">
