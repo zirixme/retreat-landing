@@ -1,10 +1,6 @@
 import ExperCard from "./ExperCard.jsx";
 import { motion } from "framer-motion";
-import {
-  fadeInUp,
-  staggerContainer,
-  imageFadeIn,
-} from "../utils/motionVariants.js";
+import { fadeInUp, staggerContainer } from "../utils/motionVariants.js";
 
 function Experiences() {
   return (
@@ -59,7 +55,7 @@ function Experiences() {
 
         <div className="md:col-span-2 md:flex md:justify-center lg:block lg:col-span-1">
           <ExperCard
-            img={"/hike.compressed.webp"}
+            img={"/hike-compressed.webp"}
             title={"Guided Adventures"}
             paragraph={
               "Wander through alpine trails with expert guides who know every hidden path and story the forest holds."
