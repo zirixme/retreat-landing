@@ -7,7 +7,7 @@ function Accommodations() {
     <section
       aria-label="accommodations"
       id="accommodations"
-      className="bg-background h-fit grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-4 p-10 gap-4 place-items-center md:items-start"
+      className="bg-background h-fit grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-4 px-4 md:px-6 md:py-12 gap-4 place-items-center md:items-start"
     >
       <motion.div
         variants={staggerContainer}
