@@ -6,8 +6,8 @@ function Navbar() {
   const navLinks = ["Home", "Experiences", "Journal", "Contact"];
   return (
     <header className="w-full absolute top-0 left-0 z-20">
-      <nav className="flex justify-between px-4 md:px-8 py-4 bg-transparent 2xl:text-3xl 2xl:font-light">
-        <div>
+      <nav className="flex justify-between px-4 md:px-8 py-4 bg-transparent 2xl:text-2xl 2xl:font-light">
+        <div className="flex">
           <img src="/logo.svg" alt="logo" />
         </div>
         <div>

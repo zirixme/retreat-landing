@@ -1,5 +1,5 @@
 export const fadeInUp = {
-  hidden: { opacity: 0, y: 20 },
+  hidden: { opacity: 0, y: 30 },
   show: {
     opacity: 1,
     y: 0,
@@ -15,17 +15,6 @@ export const staggerContainer = {
   show: {
     transition: {
       staggerChildren: 0.3,
-      ease: "easeOut",
-    },
-  },
-};
-
-export const imageFadeIn = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    transition: {
-      duration: 1.2,
       ease: "easeOut",
     },
   },

@@ -1,4 +1,6 @@
 import TestiCard from "./TestiCard.jsx";
+import { staggerContainer, fadeInUp } from "../utils/motionVariants.js";
+import { motion } from "framer-motion";
 function Testimonials() {
   return (
     <section
@@ -6,15 +8,27 @@ function Testimonials() {
       style={{ backgroundImage: "url('/testimonial-bg-compressed.webp')" }}
     >
       <div className="bg-gradient-to-b from-black/30 to-transparent absolute inset-0"></div>
-      <div className="text-center z-10 mb-20">
-        <h1 className="text-4xl md:text-5xl 2xl:text-6xl tracking-tight font-semibold mb-4">
+      <motion.div
+        className="text-center z-10 mb-20"
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
+      >
+        <motion.h1
+          variants={fadeInUp}
+          className="text-4xl md:text-5xl 2xl:text-6xl tracking-tight font-semibold mb-4"
+        >
           What Our Guests Say
-        </h1>
-        <p className="2xl:text-2xl max-w-3xl mx-auto">
+        </motion.h1>
+        <motion.p
+          variants={fadeInUp}
+          className="2xl:text-2xl max-w-3xl mx-auto"
+        >
           Every visit leaves a mark and we’re grateful to be part of so many
           journeys. Here's what some of our guests have shared:
-        </p>
-      </div>
+        </motion.p>
+      </motion.div>
       <div className="z-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 ">
         <TestiCard
           img={"/person-1-compressed.webp"}

@@ -7,14 +7,14 @@ function Accommodations() {
     <section
       aria-label="accommodations"
       id="accommodations"
-      className="bg-background h-fit grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-10 gap-4 place-items-center md:items-start"
+      className="bg-background h-fit grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-4 p-10 gap-4 place-items-center md:items-start"
     >
       <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="min-h-[300px] lg:min-h-[395px] max-w-md lg:max-w-3xl md:max-w-lg w-full flex flex-col justify-center md:p-7 md:col-span-2 lg:col-span-4 md:text-center"
+        className="min-h-[300px] lg:min-h-[395px] max-w-md lg:max-w-3xl md:max-w-lg w-full flex flex-col justify-center md:p-7 md:col-span-2 lg:col-span-2 2xl:col-span-4 md:text-center"
       >
         <motion.h1
           variants={fadeInUp}
