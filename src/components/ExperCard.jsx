@@ -4,6 +4,7 @@ function ExperCard({ img, title, paragraph }) {
       <div className="relative rounded mb-4 h-60 xl:h-[360px] overflow-hidden shadow-lg">
         <img
           src={img}
+          loading="lazy"
           alt={`Experience: ${title}`}
           className="absolute inset-0 w-full h-full object-cover object-center"
         />

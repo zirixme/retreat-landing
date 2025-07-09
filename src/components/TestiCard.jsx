@@ -4,6 +4,7 @@ function TestiCard({ img, name, paragraph }) {
       <div className="w-24 h-24 md:w-50 md:h-50 rounded-full overflow-hidden mb-4">
         <img
           src={img}
+          loading="lazy"
           alt=""
           className="object-cover object-center w-full h-full"
         />
