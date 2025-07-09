@@ -1,12 +1,12 @@
 function ExperCard({ img, title, paragraph }) {
   return (
     <div className="text-left w-full max-w-sm lg:max-w-2xl h-full">
-      <div className="relative rounded mb-4 h-60 xl:h-[360px] overflow-hidden shadow-lg">
+      <div className="relative rounded mb-2 h-60 xl:h-[360px] overflow-hidden shadow-lg">
         <img
           src={img}
           loading="lazy"
           alt={`Experience: ${title}`}
-          className="absolute inset-0 w-full h-full object-cover object-center"
+          className="absolute inset-0 w-full h-full object-cover"
         />
       </div>
       <div className="p-2 sm:p-4">
